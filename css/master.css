@@ -1,0 +1,9 @@
+body {
+    margin: 8px;
+}
+
+div {
+    background-color: red;
+    background-image: url(../img/img1.jpg);
+    /* background-repeat: no-repeat; */
+}
