@@ -2,8 +2,184 @@ body {
     margin: 8px;
 }
 
-div {
-    background-color: red;
-    background-image: url(../img/img1.jpg);
-    /* background-repeat: no-repeat; */
+.assign-1-shape-1 {
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    background-color: blueviolet;
+    background-color: rgb(138,43,226);
+    background-color: #8a2be2;
+    margin-bottom: 5px;
+}
+
+.assign-1-shape-2 {
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    background-color: blueviolet;
+    background-color: rgb(138,43,226,50%);
+    /* background-color: #8a2be2; */
+    margin-bottom: 5px;
+
+}
+
+.assign-1-shape-3 {
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    background-color: blueviolet;
+    background-color: rgb(138,43,226,0.1);
+    /* background-color: #8a2be2; */
+}
+
+.assign-2-shape-1 {
+    width: 400px;
+    height: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 8px;
+    color: white;
+    background-color: rgb(221, 221, 221, 30%);
+    background-image: url(../img/css-assignment.png);
+    background-repeat: no-repeat;
+    display: inline-block;
+}
+
+.assign-2-shape-2 {
+    width: 400px;
+    height: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 8px;
+    color: white;
+    background-color: rgb(221, 221, 221, 30%);
+    background-image: url(../img/css-assignment.png);
+    background-repeat: repeat-y;
+    display: inline-block;
+    margin: 0 0 8px 8px;
+}
+
+.assign-2-shape-3 {
+    width: 400px;
+    height: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 8px;
+    color: white;
+    background-color: rgb(221, 221, 221, 30%);
+    background-image: url(../img/css-assignment.png);
+    background-repeat: repeat-x;
+    display: inline-block;
+    margin:8px 8px 0px 0px;
+}
+
+.assign-2-shape-4 {
+    width: 400px;
+    height: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 8px;
+    color: white;
+    background-color: rgb(221, 221, 221, 30%);
+    background-image: url(../img/css-assignment.png);
+    background-repeat: repeat;
+    display: inline-block;
+}
+
+.assign-3-shape-1 {
+    width: 400px;
+    height: 400px;
+    background-image: url(../img/css-assignment.png);
+    background-repeat: no-repeat;
+    background-color: rgb(221, 221, 221, 30%);
+    color: white;
+    padding: 8px;
+    display: inline-block;
+}
+.assign-3-shape-2 {
+    width: 400px;
+    height: 400px;
+    background-image: url(../img/css-assignment.png);
+    background-repeat: repeat-y;
+    background-position: right;
+    background-color: rgb(221, 221, 221, 30%);
+    color: white;
+    padding: 8px;
+    display: inline-block;
+    margin: 0 0 8px 8px;
+}
+.assign-3-shape-3 {
+    width: 400px;
+    height: 400px;
+    background-image: url(../img/css-assignment.png);
+    background-repeat: repeat-x;
+    background-position: bottom;
+    background-color: rgb(221, 221, 221, 30%);
+    color: white;
+    padding: 8px;
+    display: inline-block;
+    margin:8px 8px 0px 0px;
+}
+.assign-3-shape-4 {
+    width: 400px;
+    height: 400px;
+    background-image: url(../img/css-assignment.png);
+    background-repeat: repeat;
+    background-color: rgb(221, 221, 221 , 30%);
+    color: white;
+    padding: 8px;
+    display: inline-block;
+}
+
+.assign-4-shape-1 {
+    width: 400px;
+    height: 400px;
+    background-image: url(../img/css-assignment.png);
+    background-repeat: no-repeat;
+    background-color: rgb(221,221,221, 30%);
+    background-size: 80%;
+    color: white;
+    padding: 8px;
+    display: inline-block;
+}
+.assign-4-shape-2 {
+    width: 400px;
+    height: 400px;
+    background-image: url(../img/css-assignment.png);
+    background-repeat: repeat-y;
+    background-position: right;
+    background-color: rgb(221,221,221, 30%);
+    background-size: 80%;
+    color: white;
+    padding: 8px;
+    display: inline-block;
+    margin: 0 0 8px 8px;
+}
+.assign-4-shape-3 {
+    width: 400px;
+    height: 400px;
+    background-image: url(../img/css-assignment.png);
+    background-repeat: repeat-x;
+    background-position: bottom;
+    background-color: rgb(221,221,221, 30%);
+    background-size: 80%;
+    color: white;
+    padding: 8px;
+    display: inline-block;
+    margin:8px 8px 0px 0px;
+}
+.assign-4-shape-4 {
+    width: 400px;
+    height: 400px;
+    background-image: url(../img/css-assignment.png);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    background-color: rgb(221,221,221, 30%);
+    background-size: 50%;
+    color: white;
+    padding: 8px;
+    display: inline-block;
 }
