@@ -99,6 +99,7 @@ body {
     padding: 8px;
     display: inline-block;
 }
+
 .assign-3-shape-2 {
     width: 400px;
     height: 400px;
@@ -111,6 +112,7 @@ body {
     display: inline-block;
     margin: 0 0 8px 8px;
 }
+
 .assign-3-shape-3 {
     width: 400px;
     height: 400px;
@@ -123,6 +125,7 @@ body {
     display: inline-block;
     margin:8px 8px 0px 0px;
 }
+
 .assign-3-shape-4 {
     width: 400px;
     height: 400px;
@@ -145,6 +148,7 @@ body {
     padding: 8px;
     display: inline-block;
 }
+
 .assign-4-shape-2 {
     width: 400px;
     height: 400px;
@@ -158,6 +162,7 @@ body {
     display: inline-block;
     margin: 0 0 8px 8px;
 }
+
 .assign-4-shape-3 {
     width: 400px;
     height: 400px;
@@ -171,6 +176,7 @@ body {
     display: inline-block;
     margin:8px 8px 0px 0px;
 }
+
 .assign-4-shape-4 {
     width: 400px;
     height: 400px;
@@ -182,4 +188,73 @@ body {
     color: white;
     padding: 8px;
     display: inline-block;
+}
+
+.assign-5-shape-1 {
+    display: inline-block;
+    color: black;
+    padding: 20px;
+    margin: 20px;
+    background-color: #EEE;
+    border: 5px solid red;
+    outline: 5px solid black;
+}
+
+.assign-5-shape-2 {
+    display: inline-block;
+    color: black;
+    padding: 20px;
+    margin: 20px;
+    background-color: #EEE;
+    border-top: 5px solid blue;
+    border-right: 5px solid green;
+    border-bottom: 5px solid blue;
+    border-left: 5px solid green;
+    outline: 5px solid black;
+}
+
+.assign-5-shape-3 {
+    display: inline-block;
+    color: black;
+    padding: 20px;
+    margin: 20px;
+    background-color: #EEE;
+    border-top: 5px dashed red;
+    border-right: 5px dashed green;
+    border-bottom: 5px dashed blue;
+    border-left: 5px dashed yellow;
+    outline: 5px solid black;
+}
+
+.note-1 {
+    padding: 12px;
+    border-left: 8px solid red;
+}
+
+.note-3 {
+    padding: 12px;
+    border-left: 8px solid green;
+}
+
+.assign-6-shape-1 {
+    width: 400px;
+    background-color: #EEE;
+    padding: 20px 20px 20px 10px;
+    /* border-left: 8px solid red; */
+}
+
+
+.assign-6-shape-2 {
+    visibility: hidden;
+    width: 400px;
+    background-color: #EEE;
+    padding: 20px 20px 20px 10px;
+    /* border-left: 8px solid red; */
+}
+
+.assign-6-shape-3 {
+    width: 400px;
+    background-color: #EEE;
+    padding: 20px 20px 20px 10px;
+    /* border-left: 8px solid green; */
 }
