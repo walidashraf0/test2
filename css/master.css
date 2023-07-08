@@ -258,3 +258,33 @@ body {
     padding: 20px 20px 20px 10px;
     /* border-left: 8px solid green; */
 }
+
+.parent .child .title {
+    color: red;
+}
+
+.parent .title {
+    color: blue;
+}
+
+.parent p,
+.title {
+    color: green;
+}
+
+.assign-7-shape-1,
+.assign-7-shape-2,
+.assign-7-shape-3,
+.assign-7-shape-4 {
+    background-color: #a52a2a;
+    color: white;
+    padding: 20px;
+    margin: 20px;
+    width: fit-content;
+    max-width: 400px;
+}
+
+.assign-7-shape-4 { 
+    height: 50px;
+    overflow: hidden; 
+} 
