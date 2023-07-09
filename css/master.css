@@ -287,4 +287,66 @@ body {
 .assign-7-shape-4 { 
     height: 50px;
     overflow: hidden; 
-} 
+}
+
+.shadow {
+    text-transform: capitalize;
+    font-size: 40px;
+    font-weight: bold;
+    text-shadow: 
+    1px 1px 0 #f44336,
+    2px 2px 0 #2196f3,
+    3px 3px 0 #9c27b0;
+}
+
+.one,
+.two,
+.three {
+    font-size: 20px;
+    text-align: center;
+}
+
+.one {
+    text-transform: uppercase;
+}
+
+.two {
+    text-transform: capitalize;
+}
+
+.three {
+    text-transform: lowercase;
+}
+
+.text-1,
+.text-2,
+.text-3 {
+    background-color: #EEE;
+    padding: 20px;
+    margin: 20px;
+    width: 400px;
+}
+
+.text-2 {
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.text-3 {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.link {
+    text-transform: capitalize;
+    text-align: center;
+    width: 50px;
+    padding: 10px;
+    margin: 10px 600px;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    background-color: #009688;
+    border-bottom: 5px solid #00514a;
+}
