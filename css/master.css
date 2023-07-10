@@ -350,3 +350,133 @@ body {
     background-color: #009688;
     border-bottom: 5px solid #00514a;
 }
+
+.assign-8-shape-1 {
+    border: 2px solid #ff5722;
+    padding: 20px;
+    width: 400px;
+}
+
+.pa {
+    background-color: #EEE;
+    border: inherit;
+    padding: inherit;
+    text-align: center;
+}
+
+.f1 {
+    text-transform: capitalize;
+    font-family: 'Open Sans', sans-serif;    font-weight: 300;
+    font-size: 40px;
+    text-align: center;
+}
+
+.f2 {
+    text-transform: capitalize;
+    font-family: 'Cairo', sans-serif;    font-weight: 700;
+    font-size: 40px;
+    text-align: center;
+}
+
+.f3 {
+    text-transform: capitalize;
+    font-family: 'Jomhuria', cursive;    font-weight: 400;
+    font-size: 40px;
+    text-align: center;
+}
+
+.f4 {
+    text-transform: capitalize;
+    font-size: 2.5rem;
+    text-align: center;
+}
+
+.f5 {
+    text-transform: capitalize;
+    font-size: 2rem;
+    text-align: center;
+}
+
+.f6 {
+    text-transform: capitalize;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.parent2 {
+    width: 800px;
+    background-color: #EEE;
+    float: left;
+}
+
+.full {
+    text-align: center;
+    font-weight: bold;
+    background-color: #ddd;
+    margin-top: 15px;
+    padding: 15px 0;
+    margin-left: 15px;
+    width: calc((100% - 30px));
+}
+
+.third {
+    text-align: center;
+    font-weight: bold;
+    background-color: #ddd;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    float: left;
+    width: calc((100% - 60px) / 3);
+    margin-left: 15px;
+    margin-top: 15px;
+}
+
+.half {
+    text-align: center;
+    font-weight: bold;
+    background-color: #ddd;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    float: left;
+    width: calc((100% - 45px) / 2);
+    margin-left: 15px;
+    margin-top: 15px;
+}
+
+.quatre {
+    text-align: center;
+    font-weight: bold;
+    background-color: #ddd;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    float: left;
+    width: calc((100% - 75px) / 4);
+    margin-left: 15px;
+    margin-top: 15px;
+}
+
+/* فاصل */
+.section {
+    height: 280px;
+}
+/* فاصل */
+
+.normal,
+.n-one,
+.n-two {
+    margin: 20px auto;
+    width: 300px;
+    font-weight: bold;
+    font-size: 1rem;
+    padding: 20px;
+    background-color: #b3b3b3; /* Get The Background From Image */
+    color: black;
+}
+
+.n-one {
+    background-color: rgb(179, 179, 179, 0.1);
+}
+
+.n-two {
+    opacity: 0.1;
+}
