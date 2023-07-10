@@ -480,3 +480,185 @@ body {
 .n-two {
     opacity: 0.1;
 }
+
+.green,
+.red,
+.blue,
+.black {
+    width: 100px;
+    height: 100px;
+    float: left;
+    position: relative;
+}
+
+.green {
+    background-color: #009688;
+    z-index: 2;
+    left: 235px;
+    top: 35px;
+}
+
+.red {
+    background-color: #f44336;
+    z-index: 3;
+    left: 150px;
+    top: 50px;
+}
+
+.blue {
+    background-color: #03a9f4;
+    z-index: 1;
+    left: 20px;
+    top: 20px;
+}
+
+.black {
+    background-color: #333333;
+    z-index: -1;
+    left: -80px;
+    top: 35px;
+}
+
+.task-two {
+    text-align: center;
+    background-color: #EEE;
+    width: 400px;
+    margin: 20px auto;
+    border-top: 3px solid #f44336;
+    border-bottom: 3px solid #f44336;
+    border-right: 3px solid #2196f3;
+    border-left: 3px solid #2196f3;
+    position: relative;
+}
+
+.top-left {
+    text-align: center;
+    color: white;
+    background-color: #2196f3;
+    position: absolute;
+    left: -20px;
+    top: -15px;
+    width: 30px;
+    border-right: 3px solid #f44336;
+}
+
+.bottom-left {
+    text-align: center;
+    color: white;
+    background-color: #2196f3;
+    position: absolute;
+    left: -20px;
+    top: 102px;
+    width: 30px;
+    border-right: 3px solid #f44336;
+}
+
+.top-right {
+    text-align: center;
+    color: white;
+    background-color: #2196f3;
+    position: absolute;
+    left: 385px;
+    top: -15px;
+    width: 30px;
+    border-left: 3px solid #f44336;
+}
+
+.bottom-right {
+    text-align: center;
+    color: white;
+    background-color: #2196f3;
+    position: absolute;
+    left: 385px;
+    top: 102px;
+    width: 30px;
+    border-left: 3px solid #f44336;
+}
+
+.task-three {
+    width: 400px;
+    margin: 20px auto;
+    list-style-type: none;
+}
+
+.task-child {
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: #EEE;
+}
+
+.ol-one {
+    /* padding-bottom: 5px; */
+}
+
+.ol-one li {
+    background-color: white;
+    list-style-position: outside;
+    padding: 15px;
+    margin: 15px;
+}
+
+.ul-one {
+    padding-bottom: 10px;
+}
+
+.ul-one li {
+    background-color: white;
+    list-style-position: inside;
+    padding: 15px;
+    margin: 15px;
+}
+
+table {
+    width: 700px;
+    margin: 20px auto;
+}
+
+thead {
+    background-color: #404040;
+    color: white;
+    font-weight: lighter;
+}
+
+th {
+    padding: 20px;
+
+}
+
+tbody {
+    text-align: center;
+    color: black;
+    background-color: #EEE;
+}
+
+td {
+    padding: 20px;
+    position: relative;
+    width: 150px;
+}
+
+.lin {
+    /* position: relative; */
+}
+
+.view,
+.del {
+    text-decoration: none;
+    padding: 10px;
+    color: white;
+    /* margin: 10px; */
+    /* width: 50px; */
+    position: absolute;
+}
+
+.view {
+    background-color: #03a9f4;
+    top: 30%;
+    left: 4px;
+}
+
+.del {
+    background-color: #e91e63;
+    top: 30%;
+    left: 68px;
+}
