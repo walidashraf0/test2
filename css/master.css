@@ -738,3 +738,198 @@ td {
     color: white;
     margin-left: -50px;
 }
+
+.task-81 {
+    width: 100px;
+    height: 100px;
+    background-color: #EEE;
+    margin: 20px 20px;
+    text-align: center;
+    display: inline-block;
+    position: relative;
+    left: 245px;
+    counter-increment: box;
+    border: 2px solid black;
+    box-shadow: -4px -4px #e91e63, 4px 4px #2196f3;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+.task-81::before {
+    content: counter(box);
+    color: white;
+    background-color: black;
+    width: 25px;
+    height: 25px;
+    text-align: center;
+    float: left;
+    position: absolute;
+    top: -12px;
+    left: 42px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+.task-81::after {
+    content: "Element";
+    position: absolute;
+    top: 36px;
+    right: 16px;
+    font-weight: bold;
+}
+
+.task-82 {
+    background-color: #EEE;
+    width: 100px;
+    height: 100px;
+    margin: 20px auto;
+    box-shadow: -5px -5px 21px #b3b3b3 inset;
+    border-radius: 20px 50px 20px 50px;
+    -webkit-border-radius: 20px 50px 20px 50px;
+    -moz-border-radius: 20px 50px 20px 50px;
+    -ms-border-radius: 20px 50px 20px 50px;
+    -o-border-radius: 20px 50px 20px 50px;
+}
+
+.patask-83 {
+    width: 550px;
+    margin: 20px auto;
+    position: relative;
+}
+
+.left {
+    width: 200px;
+    background-color: #EEE;
+    padding: 20px;
+    position: relative;
+    height: 250px;
+    float: left;
+}
+
+.right {
+    width: 200px;
+    background-color: #EEE;
+    padding: 20px;
+    position: relative;
+    height: 250px;
+    float: right;
+}
+
+.basic {
+    text-align: center;
+    color: white;
+    background-color: #2196f3;
+    padding: 10px;
+    position: absolute;
+    float: left;
+    top: 20px;
+    left: 22px;
+    width: 180px;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+}
+
+.pro {
+    text-align: center;
+    color: white;
+    background-color: #2196f3;
+    padding: 10px;
+    position: absolute;
+    float: right;
+    top: 20px;
+    left: 22px;
+    width: 180px;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+}
+
+.free {
+    background-color: #DDD;
+    width: 180px;
+    height: 180px;
+    text-align: center;
+    padding: 10px;
+    position: absolute;
+    bottom: 21px;
+    left: 13px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+.free::before {
+    content: "Free";
+    float: left;
+    position: absolute;
+    top: 68px;
+    right: 50px;
+    font-size: 40px;
+}
+
+.price {
+    background-color: #DDD;
+    width: 180px;
+    height: 180px;
+    text-align: center;
+    padding: 10px;
+    position: absolute;
+    bottom: 21px;
+    left: 13px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+.price::before {
+    content: "30$";
+    float: left;
+    position: absolute;
+    top: 68px;
+    right: 50px;
+    font-size: 40px;
+}
+
+.patask-83::before {
+    content: "or";
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    color: white;
+    background-color: #2196f3;
+    float: left;
+    position: absolute;
+    left: 261px;
+    top: 130px;
+    z-index: 4;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+.patask-83::after {
+    content: "";
+    width: 4px;
+    height: 290px;
+    background-color: #2196f3;
+    float: left;
+    position: absolute;
+    left: 274px;
+}
