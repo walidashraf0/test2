@@ -1,3 +1,8 @@
+/* :root {
+    --mainColor: #009688;
+    --mainPadding: 10px;
+} */
+
 body {
     margin: 8px;
 }
@@ -875,8 +880,8 @@ td {
     content: "Free";
     float: left;
     position: absolute;
-    top: 68px;
-    right: 50px;
+    top: 74px;
+    right: 63px;
     font-size: 40px;
 }
 
@@ -900,8 +905,8 @@ td {
     content: "30$";
     float: left;
     position: absolute;
-    top: 68px;
-    right: 50px;
+    top: 74px;
+    right: 67px;
     font-size: 40px;
 }
 
@@ -932,4 +937,64 @@ td {
     float: left;
     position: absolute;
     left: 274px;
+}
+
+.patask-91 {
+    background-color: #EEE;
+    text-align: center;
+    margin: 20px auto;
+    padding: 20px;
+    width: 400px;
+    height: 200px;
+    transition-duration: 0.5s;
+}
+
+.patask-91:hover{
+    margin-top: 10px;
+}
+
+.task-91 {
+    background-color: #DDD;
+    text-align: center;
+    margin: 20px auto;
+    padding: 20px;
+    width: 360px;
+    transition: 0.5s ease 0.5s all;
+    -webkit-transition: 0.5s ease 0.5s all;
+    -moz-transition: 0.5s ease 0.5s all;
+    -ms-transition: 0.5s ease 0.5s all;
+    -o-transition: 0.5s ease 0.5s all;
+}
+
+.patask-91:hover .task-91{
+    margin-top: 40px;
+}
+
+.task-92 {
+    font-size: 20px !important;
+    width: 400px;
+    margin: 20px auto;
+    background-color: #EEE !important;
+    border: none !important;
+    color: black !important;
+    padding: 15px !important;
+    text-align: center;
+    text-indent: -5000px;
+    position: relative;
+}
+
+.task-92::after {
+    content: "Elzero";
+    position: absolute;
+    text-indent: 0px;
+    left: 188px;
+    font-weight: bold;
+}
+
+.el {
+    width: 500px;
+    padding: var(--mainPadding, 10px);
+    color: var(--mainColor, red);
+    border: 4px solid var(--mainColor, black);
+    margin: 20px auto;
 }
