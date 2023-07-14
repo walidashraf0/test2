@@ -1309,3 +1309,78 @@ td {
     background-image: linear-gradient(to right, #ff5722 50%, #009688 50%);
 }
 
+.grid {
+    background-color: #ddd;
+    padding: 20px;
+    width: 800px;
+    height: 400px;
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    grid-template-rows: auto 1fr;
+    gap: 10px 10px;
+}
+
+.grid div {
+    color: white;
+    text-align: center;
+    padding: 20px;
+    background-color: #607d8b;
+}
+
+.layout {
+    width: 100%;
+    height: 500px;
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    grid-template-rows: auto 1fr auto;
+    grid-template-areas: "head head head head head head head head head head"
+    "cont cont cont cont cont cont cont side side side"
+    "foot foot foot foot foot foot foot foot foot foot";
+}
+
+.layout header {
+    color: white;
+    background-color: #03a9f4;
+    padding: 10px;
+    grid-area: head;
+}
+
+.layout section {
+    color: white;
+    background-color: #ff5722;
+    padding: 10px;
+    grid-area: cont;
+}
+
+.layout aside {
+    color: white;
+    background-color: #607d8b;
+    padding: 10px;
+    grid-area: side;
+}
+
+.layout footer {
+    color: white;
+    background-color: #009688;
+    padding: 10px;
+    grid-area: foot;
+}
+
+.grid-2 {
+    background-color: #ddd;
+    padding: 20px;
+    width: 800px;
+    height: 400px;
+    display: grid;
+    grid-template-columns: auto 1fr 1fr auto;
+    grid-template-rows: 1fr auto;
+    gap: 10px 10px;
+}
+
+.grid-2 div {
+    background-color: #403f3f;
+    color: white;
+    text-align: center;
+    align-content: center;
+}
+
