@@ -3,8 +3,11 @@
     --mainPadding: 10px;
     --margin: 5px;
 }
+
 * {
     box-sizing: border-box;
+    padding: 0;
+    margin: 0;
 }
 
 body {
@@ -17,7 +20,7 @@ body {
     margin-right: auto;
     padding: 20px;
     background-color: blueviolet;
-    background-color: rgb(138,43,226);
+    background-color: rgb(138, 43, 226);
     background-color: #8a2be2;
     margin-bottom: 5px;
 }
@@ -28,7 +31,7 @@ body {
     margin-right: auto;
     padding: 20px;
     background-color: blueviolet;
-    background-color: rgb(138,43,226,50%);
+    background-color: rgb(138, 43, 226, 50%);
     /* background-color: #8a2be2; */
     margin-bottom: 5px;
 
@@ -40,7 +43,7 @@ body {
     margin-right: auto;
     padding: 20px;
     background-color: blueviolet;
-    background-color: rgb(138,43,226,0.1);
+    background-color: rgb(138, 43, 226, 0.1);
     /* background-color: #8a2be2; */
 }
 
@@ -82,7 +85,7 @@ body {
     background-image: url(../img/css-assignment.png);
     background-repeat: repeat-x;
     display: inline-block;
-    margin:8px 8px 0px 0px;
+    margin: 8px 8px 0px 0px;
 }
 
 .assign-2-shape-4 {
@@ -132,7 +135,7 @@ body {
     color: white;
     padding: 8px;
     display: inline-block;
-    margin:8px 8px 0px 0px;
+    margin: 8px 8px 0px 0px;
 }
 
 .assign-3-shape-4 {
@@ -140,7 +143,7 @@ body {
     height: 400px;
     background-image: url(../img/css-assignment.png);
     background-repeat: repeat;
-    background-color: rgb(221, 221, 221 , 30%);
+    background-color: rgb(221, 221, 221, 30%);
     color: white;
     padding: 8px;
     display: inline-block;
@@ -151,7 +154,7 @@ body {
     height: 400px;
     background-image: url(../img/css-assignment.png);
     background-repeat: no-repeat;
-    background-color: rgb(221,221,221, 30%);
+    background-color: rgb(221, 221, 221, 30%);
     background-size: 80%;
     color: white;
     padding: 8px;
@@ -164,7 +167,7 @@ body {
     background-image: url(../img/css-assignment.png);
     background-repeat: repeat-y;
     background-position: right;
-    background-color: rgb(221,221,221, 30%);
+    background-color: rgb(221, 221, 221, 30%);
     background-size: 80%;
     color: white;
     padding: 8px;
@@ -178,12 +181,12 @@ body {
     background-image: url(../img/css-assignment.png);
     background-repeat: repeat-x;
     background-position: bottom;
-    background-color: rgb(221,221,221, 30%);
+    background-color: rgb(221, 221, 221, 30%);
     background-size: 80%;
     color: white;
     padding: 8px;
     display: inline-block;
-    margin:8px 8px 0px 0px;
+    margin: 8px 8px 0px 0px;
 }
 
 .assign-4-shape-4 {
@@ -192,7 +195,7 @@ body {
     background-image: url(../img/css-assignment.png);
     background-repeat: no-repeat;
     background-position: bottom right;
-    background-color: rgb(221,221,221, 30%);
+    background-color: rgb(221, 221, 221, 30%);
     background-size: 50%;
     color: white;
     padding: 8px;
@@ -293,19 +296,19 @@ body {
     max-width: 400px;
 }
 
-.assign-7-shape-4 { 
+.assign-7-shape-4 {
     height: 50px;
-    overflow: hidden; 
+    overflow: hidden;
 }
 
 .shadow {
     text-transform: capitalize;
     font-size: 40px;
     font-weight: bold;
-    text-shadow: 
-    1px 1px 0 #f44336,
-    2px 2px 0 #2196f3,
-    3px 3px 0 #9c27b0;
+    text-shadow:
+        1px 1px 0 #f44336,
+        2px 2px 0 #2196f3,
+        3px 3px 0 #9c27b0;
 }
 
 .one,
@@ -375,21 +378,24 @@ body {
 
 .f1 {
     text-transform: capitalize;
-    font-family: 'Open Sans', sans-serif;    font-weight: 300;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
     font-size: 40px;
     text-align: center;
 }
 
 .f2 {
     text-transform: capitalize;
-    font-family: 'Cairo', sans-serif;    font-weight: 700;
+    font-family: 'Cairo', sans-serif;
+    font-weight: 700;
     font-size: 40px;
     text-align: center;
 }
 
 .f3 {
     text-transform: capitalize;
-    font-family: 'Jomhuria', cursive;    font-weight: 400;
+    font-family: 'Jomhuria', cursive;
+    font-weight: 400;
     font-size: 40px;
     text-align: center;
 }
@@ -468,6 +474,7 @@ body {
 .section {
     height: 280px;
 }
+
 /* فاصل */
 
 .normal,
@@ -478,7 +485,8 @@ body {
     font-weight: bold;
     font-size: 1rem;
     padding: 20px;
-    background-color: #b3b3b3; /* Get The Background From Image */
+    background-color: #b3b3b3;
+    /* Get The Background From Image */
     color: black;
 }
 
@@ -736,7 +744,7 @@ td {
 
 }
 
-.p-75::before{
+.p-75::before {
     content: counter(mem);
     background-color: #f44336;
     padding: 20px;
@@ -953,7 +961,7 @@ td {
     transition-duration: 0.5s;
 }
 
-.patask-91:hover{
+.patask-91:hover {
     margin-top: 10px;
 }
 
@@ -970,7 +978,7 @@ td {
     -o-transition: 0.5s ease 0.5s all;
 }
 
-.patask-91:hover .task-91{
+.patask-91:hover .task-91 {
     margin-top: 40px;
 }
 
@@ -1108,7 +1116,7 @@ td {
     width: 10px;
     height: 80px;
     color: white;
-    font-size: 20px; 
+    font-size: 20px;
     padding: 10px;
     background-color: #009688;
     display: flex;
@@ -1127,7 +1135,7 @@ td {
     display: flex;
     justify-content: center;
     align-items: center;
-    flex: 0 1 31%;  
+    flex: 0 1 31%;
     font-size: 20px;
     /* align-self: flex-end; */
 }
@@ -1142,8 +1150,8 @@ td {
     justify-content: center;
     align-items: center;
     align-self: flex-end;
-    flex: 0 1 31%; 
-    font-size: 20px; 
+    flex: 0 1 31%;
+    font-size: 20px;
 }
 
 .paflex-5 {
@@ -1157,6 +1165,7 @@ td {
     flex-wrap: nowrap;
     justify-content: space-between;
 }
+
 .paflex-5 div {
     flex: 0 1 15%;
     height: 50%;
@@ -1167,21 +1176,25 @@ td {
     display: flex;
     justify-content: center;
     align-items: center;
-    
+
 }
+
 .paflex-5 .one {
     background-color: #FF9800;
     order: 2;
 }
+
 .paflex-5 .two {
     background-color: #8BC34A;
     align-self: flex-end;
     order: 3;
 }
+
 .paflex-5 .three {
     background-color: #795548;
     order: 4;
 }
+
 .paflex-5 .four {
     background-color: #673AB7;
     align-self: flex-end;
@@ -1244,7 +1257,7 @@ td {
 .task-54 {
     width: 600px;
     margin: 0 auto;
-    padding: var(--mainPadding );
+    padding: var(--mainPadding);
     background-color: #EEE;
     word-spacing: 2px;
     text-align: center;
@@ -1314,6 +1327,7 @@ td {
     padding: 20px;
     width: 800px;
     height: 400px;
+    margin: 0px auto;
     display: grid;
     grid-template-columns: repeat(3, auto);
     grid-template-rows: auto 1fr;
@@ -1325,17 +1339,21 @@ td {
     text-align: center;
     padding: 20px;
     background-color: #607d8b;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .layout {
     width: 100%;
     height: 500px;
+    margin: 0px auto;
     display: grid;
     grid-template-columns: repeat(10, 1fr);
     grid-template-rows: auto 1fr auto;
     grid-template-areas: "head head head head head head head head head head"
-    "cont cont cont cont cont cont cont side side side"
-    "foot foot foot foot foot foot foot foot foot foot";
+        "cont cont cont cont cont cont cont side side side"
+        "foot foot foot foot foot foot foot foot foot foot";
 }
 
 .layout header {
@@ -1368,9 +1386,10 @@ td {
 
 .grid-2 {
     background-color: #ddd;
-    padding: 20px;
+    padding: 10px;
     width: 800px;
     height: 400px;
+    margin: 0px auto;
     display: grid;
     grid-template-columns: auto 1fr 1fr auto;
     grid-template-rows: 1fr auto;
@@ -1380,7 +1399,169 @@ td {
 .grid-2 div {
     background-color: #403f3f;
     color: white;
-    text-align: center;
-    align-content: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
+.grid-3 {
+    background-color: #DDD;
+    padding: 20px;
+    width: 800px;
+    height: 400px;
+    margin: 0px auto;
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+    gap: 10px 10px;
+    grid-template-areas: "num8 num8 num8 num8 num8 num8 num8 num8"
+        "num2 num2 num2 num2 num2 num2 num3 num3"
+        "num4 num4 num5 num5 num5 num5 num5 num5"
+        "num6 num6 num5 num5 num5 num5 num5 num5"
+        "num7 num7 num5 num5 num5 num5 num5 num5"
+        "num1 num1 num1 num1 num1 num1 num1 num1";
+}
+
+.grid-3 div {
+    color: white;
+    padding: 10px;
+    background-color: #03a9f4;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.grid-3 .gr-1 {
+    grid-area: num1;
+}
+
+.grid-3 .gr-2 {
+    grid-area: num2;
+}
+
+.grid-3 .gr-3 {
+    grid-area: num3;
+}
+
+.grid-3 .gr-4 {
+    grid-area: num4;
+}
+
+.grid-3 .gr-5 {
+    grid-area: num5;
+}
+
+.grid-3 .gr-6 {
+    grid-area: num6;
+}
+
+.grid-3 .gr-7 {
+    grid-area: num7;
+}
+
+.grid-3 .gr-8 {
+    grid-area: num8;
+}
+
+.grid-4 {
+    background-color: #ddd;
+    padding: 20px;
+    width: 800px;
+    height: 400px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, auto);
+    gap: 10px 10px;
+    align-content: space-between;
+}
+
+.grid-4 div {
+    color: white;
+    background-color: #e91e63;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.layout-1 {
+    background-color: #eeeeee;
+    padding: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.grid-5 {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4, auto);
+    gap: 10px;
+}
+
+.grid-5 div {
+    background-color: #ffffff;
+    padding: 30px 20px;
+    border-bottom: 3px solid #f54e1f;
+    position: relative;
+}
+
+.grid-5 div span {
+    font-size: 60px;
+    position: absolute;
+    bottom: -25px;
+    right: 10px;
+    color: gray;
+}
+
+.gr-5 p {
+    line-height: 1.5;
+}
+
+.name {
+    font-weight: bold;
+    margin-bottom: 2px;
+    font-size: 20px;
+}
+
+.job {
+    color: gray;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.about {
+    font-weight: bold;
+    margin-bottom: 15px;
+    font-size: 18px;
+}
+
+.item-c,
+.item-e,
+.item-h {
+    background-color: black !important;
+    color: #ffffff !important;
+}
+
+.item-a {
+    grid-column: 1 / span 2;
+    grid-row: 1 / 2;
+}
+
+.item-e {
+    grid-column: 2 / span 2;
+    grid-row: 2 / 3;
+}
+
+.item-f {
+    grid-column: 2 / span 2;
+    grid-row: 3 / 4;
+}
+
+.item-d {
+    grid-column: 1 / 2;
+    grid-row: 2 / span 2;
+}
+
+.item-c {
+    grid-column: 4 / 5;
+    grid-row: 1 / span 3;
+}
