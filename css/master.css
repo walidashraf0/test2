@@ -1565,3 +1565,64 @@ td {
     grid-column: 4 / 5;
     grid-row: 1 / span 3;
 }
+
+.task_1 {
+    width: 300px;
+    height: 200px;
+    font-size: 30px;
+    margin: 0px auto;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #EEE;
+    color: #2196f3;
+    font-weight: bold;
+    position: relative;
+}
+
+.task_1::before {
+    content: '';
+    position: absolute;
+    z-index:-1;
+    width: 300px;
+    height: 200px;
+    background-color: #2196f3;
+    transform: rotate(-6deg);
+    -webkit-transform: rotate(-6deg);
+    -moz-transform: rotate(-6deg);
+    -ms-transform: rotate(-6deg);
+    -o-transform: rotate(-6deg);
+}
+
+.task_1::after {
+    content: '';
+    position: absolute;
+    z-index:-2;
+    width: 300px;
+    height: 200px;
+    background-color: #e91e63;
+    transform: rotate(6deg);
+    -webkit-transform: rotate(6deg);
+    -moz-transform: rotate(6deg);
+    -ms-transform: rotate(6deg);
+    -o-transform: rotate(6deg);
+}
+
+.task_2 {
+    color: black;
+    width: 200px;
+    height: 200px;
+    font-size: 30px;
+    font-weight: bold;
+    background-color: #EEE;
+    margin: 0px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
