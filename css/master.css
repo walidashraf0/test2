@@ -1790,3 +1790,42 @@ td {
     padding: 10px;
     color: white;
 }
+
+.task_6 {
+    background-color: #e91e63;
+    width: 200px;
+    height: 200px;
+    margin: 20px auto;
+    position: relative;
+    transition: 0.6s;
+    -webkit-transition: 0.6s;
+    -moz-transition: 0.6s;
+    -ms-transition: 0.6s;
+    -o-transition: 0.6s;
+}
+
+.task_6:hover {
+    background-color: #03a9f4;
+    transform: rotateY(180deg);
+    -webkit-transform: rotateY(180deg);
+    -moz-transform: rotateY(180deg);
+    -ms-transform: rotateY(180deg);
+    -o-transform: rotateY(180deg);
+}
+
+.task_6::before {
+    content: 'Front';
+    color: white;
+    position: absolute;
+    top: 40%;
+    left: 40%;
+}
+
+.task_6:hover::before {
+    content: 'Back';
+    transform: rotateY(180deg);
+    -webkit-transform: rotateY(180deg);
+    -moz-transform: rotateY(180deg);
+    -ms-transform: rotateY(180deg);
+    -o-transform: rotateY(180deg);
+}
