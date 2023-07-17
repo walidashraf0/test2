@@ -1,5 +1,6 @@
 :root {
     --mainColor: #ddd;
+    --headcolor: #ff5722;
     --mainPadding: 10px;
     --margin: 5px;
 }
@@ -1686,3 +1687,72 @@ td {
     -ms-transform: rotate(360deg);
     -o-transform: rotate(360deg);
 }
+
+.task_3 {
+    width: 150px;
+    margin: 10px auto;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    padding: 10px;
+}
+
+.task_3::before {
+    content: '';
+    background-color: var(--headcolor);
+    position: absolute;
+    width: 150px;
+    height: 50px;
+    transform: skew(8deg, 8deg);
+    z-index: -1;
+    -webkit-transform: skew(8deg, 8deg);
+    -moz-transform: skew(8deg, 8deg);
+    -ms-transform: skew(8deg, 8deg);
+    -o-transform: skew(8deg, 8deg);
+}
+
+.task_3::after {
+    content: '';
+    background-color: var(--headcolor);
+    position: absolute;
+    width: 150px;
+    height: 50px;
+    transform: skew(-8deg, -8deg);
+    z-index: -1;
+    -webkit-transform: skew(-8deg, -8deg);
+    -moz-transform: skew(-8deg, -8deg);
+    -ms-transform: skew(-8deg, -8deg);
+    -o-transform: skew(-8deg, -8deg);
+}
+
+.task_4 {
+    width: 150px;
+    margin: 10px auto;
+    color: white;
+    text-align: end;
+    background-color: #009688;
+    padding: 10px;
+    position: relative;
+}
+
+.task_4::before {
+    content: '';
+    background-color: #009688;
+    position: absolute;
+    left: -16px;
+    top: 0;
+    outline: none;
+    border-right: 8px solid white;
+    border-left: 16px solid white;
+    width: 10px;
+    height: 66px;
+    transform: matrix();
+    transform: skewX(28deg);
+    -webkit-transform: matrix();
+    -moz-transform: matrix();
+    -ms-transform: matrix();
+    -o-transform: matrix();
+}
+
