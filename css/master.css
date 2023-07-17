@@ -1756,3 +1756,37 @@ td {
     -o-transform: matrix();
 }
 
+.task_5 {
+    width: 200px;
+    height: 200px;
+    background-color: #607d8b;
+    border-bottom: 4px solid black;
+    margin: 20px auto;
+    position: relative;
+}
+
+.task_5::before {
+    content: '';
+    width: 140px;
+    height: 140px;
+    background-color: black;
+    position: absolute;
+    top: -72px;
+    left: 14%;
+    border-bottom: 4px solid white;
+    border-left: 4px solid white;
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+}
+
+.task_5::after {
+    content: 'Elzero';
+    position: absolute;
+    top: 160px;
+    left: 0;
+    padding: 10px;
+    color: white;
+}
