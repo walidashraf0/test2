@@ -487,7 +487,6 @@ body {
     font-size: 1rem;
     padding: 20px;
     background-color: #b3b3b3;
-    /* Get The Background From Image */
     color: black;
 }
 
@@ -2267,5 +2266,89 @@ td {
         -ms-transform: translate(-60px, -120px);
         -o-transform: translate(-60px, -120px);
         opacity: 0;
+    }
+}
+
+div[class="main-1 red-2"] {
+    color: red;
+}
+
+div.parent-1:first-child> :last-child {
+    color: red;
+}
+
+.parent-2:nth-child(2)>.baby {
+    color: red;
+}
+
+.container-3 {
+    width: 1400px;
+    display: flex;
+    margin: 20px auto;
+    flex-wrap: wrap;
+    background-color: #EEE;
+    position: relative;
+}
+
+.pro-1,
+.pro-2,
+.pro-3,
+.pro-4 {
+    width: calc(1320px / 4);
+    padding: 20px;
+    margin-right: 20px;
+    background-color: #DDD;
+}
+
+
+.title-1 {
+    color: #009688;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.span-1 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+@media (max-width: 728px) {
+    .container-3 {
+        width: 728px;
+        flex-wrap: wrap;
+    }
+    .pro-1,
+    .pro-2,
+    .pro-3,
+    .pro-4 {
+        width: calc(688px / 2);
+        margin-bottom: 10px;
+    }
+    .title-1 {
+        color: red;
+    }
+}
+
+@media (max-width: 388px) {
+    .container-3 {
+        width: 388px;
+    }
+    .pro-1,
+    .pro-2,
+    .pro-3,
+    .pro-4 {
+        width: calc(348px / 1);
+        margin-bottom: 10px;
+    }
+    .title-1 {
+        color: black;
+    }
+}
+
+@media print {
+    .assign-one {
+        font-size: 40px;
     }
 }
