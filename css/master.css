@@ -1585,7 +1585,7 @@ td {
 .task_1::before {
     content: '';
     position: absolute;
-    z-index:-1;
+    z-index: -1;
     width: 300px;
     height: 200px;
     background-color: #2196f3;
@@ -1599,7 +1599,7 @@ td {
 .task_1::after {
     content: '';
     position: absolute;
-    z-index:-2;
+    z-index: -2;
     width: 300px;
     height: 200px;
     background-color: #e91e63;
@@ -1829,3 +1829,97 @@ td {
     -ms-transform: rotateY(180deg);
     -o-transform: rotateY(180deg);
 }
+
+.task_7 {
+    width: 50px;
+    height: 50px;
+    margin: 20px auto;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 6px solid;
+    background-color: transparent;
+    border-color: #e91e63 transparent #e91e63 #e91e63;
+    border-radius: 50%;
+    transition: 0.5s;
+    animation-duration: 1s;
+    animation-name: rotate;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+}
+
+.task_7::before {
+    content: '';
+    width: 58px;
+    height: 58px;
+    position: absolute;
+    border: 6px solid;
+    border-color: #03a9f4 #03a9f4 #03a9f4 transparent;
+    border-radius: 50%;
+    transition: 0.5s;
+    animation-duration: 1s;
+    animation-name: rotate;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+}
+
+.task_7::after {
+    content: '';
+    width: 78px;
+    height: 78px;
+    position: absolute;
+    border: 6px solid;
+    border-color: #FF9800 #FF9800 transparent #FF9800;
+    border-radius: 50%;
+    transition: 0.5s;
+    animation-duration: 1s;
+    animation-name: rotate;
+    
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+}
+
+.task_7:hover {
+    transform: rotate(180deg);
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+}
+
+/* @keyframes rotate {
+    from {
+        transform: rotate(180deg);
+        -webkit-transform: rotate(180deg);
+        -moz-transform: rotate(180deg);
+        -ms-transform: rotate(180deg);
+        -o-transform: rotate(180deg);
+    }
+
+    to {
+        transform: rotate(180deg);
+        -webkit-transform: rotate(180deg);
+        -moz-transform: rotate(180deg);
+        -ms-transform: rotate(180deg);
+        -o-transform: rotate(180deg);
+}
+} */
